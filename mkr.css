@@ -711,37 +711,37 @@ img {
 }
 
 .gallery > div:nth-child(1) {
-  background:url("C:/Users/karth/Desktop/MKR PORTFOLIO/images/2.jpg");
+  background:url("images/2.jpg");
   background-position: center;
   background-size:cover;
 }
 
 .gallery > div:nth-child(2) {
-  background:url("C:/Users/karth/Desktop/MKR PORTFOLIO/images/3.jpg");
+  background:url("images/3.jpg");
   background-position: center;
   background-size:cover;
 }
 
 .gallery > div:nth-child(3) {
-  background:url("C:/Users/karth/Desktop/MKR PORTFOLIO/images/4.jpg");
+  background:url("images/4.jpg");
   background-position: center;
   background-size:cover;
 }
 
 .gallery > div:nth-child(4) {
-  background:url("C:/Users/karth/Desktop/MKR PORTFOLIO/images/5.jpg");
+  background:url("images/5.jpg");
   background-position: center;
   background-size:cover;
 }
 
 .gallery > div:nth-child(5) {
-  background:url("C:/Users/karth/Desktop/MKR PORTFOLIO/images/6.jpg");
+  background:url("images/6.jpg");
   background-position: center;
   background-size:cover;
 }
 
 .gallery > div:nth-child(6) {
-  background:url("C:/Users/karth/Desktop/MKR PORTFOLIO/images/7.jpg");
+  background:url("images/7.jpg");
   background-position: center;
   background-size:cover;
 }
