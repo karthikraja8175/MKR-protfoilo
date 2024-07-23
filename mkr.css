@@ -124,7 +124,25 @@ body {
   .profile-container .name:hover.out {
       transform: translateY(10px); /* Move text down by 10 pixels */
   }
-
+  #connect{
+    background-color: #000000;
+    color: #f0b000;
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:1%;
+    padding-left:2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    margin-top: 3%;
+    margin-left: 45%;
+    border-color: #f0b000;
+    border-style: solid;
+    transform: all;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px#f0b000;
+  }
+  
 }
 
   .navbar {
@@ -216,16 +234,20 @@ body {
       flex-direction: column;
       display: none;
       width: 100%;
+      transform: all;
+      
     }
   
     .navbar-item {
       margin: 10px 0;
-      text-align: center;
+      text-align: left;
+      transition: .3s ease-in-out;
     }
   
     .navbar-toggle {
       display: block;
     }
+
   }
   
   .navbar-menu.active {
@@ -577,13 +599,11 @@ img {
     align-items: flex-start; /* Align items to the start of the flex container */
 }
 
-.project .text{
+.project .text {
   flex: 1;
   color: #000000;
   font-size: 3vw;
-  padding: 20%;
-}
-.project .text:hover {
+  border-color: #ffffff;
   border-style: solid;
   border-radius: 30px;
   margin:2%;
@@ -695,6 +715,7 @@ img {
   border-color: #f0c000;
 }
 
+/* Flexbox Approach */
 .gallery {
   font-size: 3vw;
   color: #ffffff;
@@ -725,6 +746,7 @@ img {
 .gallery > div:hover img {
   transform: scale(1.1);
 }
+
 @media (max-width: 768px) {
   .gallery {
     display:flex;
