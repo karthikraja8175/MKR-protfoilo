@@ -749,10 +749,11 @@ img {
 
 @media (max-width: 768px) {
   .gallery {
+    margin: 10%;
     display:flex;
     gap:1%;
     height:120px;
-    width:85%;
+    width:80%;
   }
   }
 
