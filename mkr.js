@@ -1,13 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const mobileMenu = document.getElementById('mobile-menu');
-    const navbarMenu = document.querySelector('.navbar-menu');
-  
-    mobileMenu.addEventListener('click', () => {
-      navbarMenu.classList.toggle('active');
-    });
-  });
-  
-
   // Initialize EmailJS with your user ID
 (function() {
   emailjs.init("Nf2wZOOQBbVWK43EU");
@@ -37,4 +27,33 @@ document.getElementById('contact-form').addEventListener('submit', function(even
           console.error('FAILED...', error);
           alert('Failed to send email. Please try again later.');
       });
+});
+
+
+document.getElementById('home').addEventListener('click', function() {
+ document.querySelector('.home').scrollIntoView({ behavior: 'smooth' });
+            });
+            document.getElementById('About Me').addEventListener('click', function() {
+                document.querySelector('.about').scrollIntoView({ behavior: 'smooth' });
+            });
+            document.getElementById('Skills').addEventListener('click', function() {
+                document.querySelector('.all-skills').scrollIntoView({ behavior: 'smooth' });
+            });
+            document.getElementById('Projects').addEventListener('click', function() {
+                document.querySelector('.project').scrollIntoView({ behavior: 'smooth' });
+            });
+            document.getElementById('Achievement').addEventListener('click', function() {
+                document.querySelector('.achivement').scrollIntoView({ behavior: 'smooth' });
+            });
+            document.getElementById('certificates').addEventListener('click', function() {
+                document.querySelector('.certificates').scrollIntoView({ behavior: 'smooth' });
+            });
+            document.getElementById('Academics').addEventListener('click', function() {
+                document.querySelector('.education').scrollIntoView({ behavior: 'smooth' });
+            });
+            document.getElementById('Gallery').addEventListener('click', function() {
+                document.querySelector('.gallery').scrollIntoView({ behavior: 'smooth' });
+            });
+            document.getElementById('Contact').addEventListener('click', function() {
+                document.querySelector('.contact').scrollIntoView({ behavior: 'smooth' });
 });
